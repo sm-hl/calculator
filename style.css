@@ -1,0 +1,77 @@
+html{
+    font-size: 18px;
+    font-family: 'sans-serif';
+    font-weight: bold;
+}
+body{
+    background: linear-gradient(#eee,#ccc);
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    box-shadow: 0 0 5px #eee;
+}
+.screen{
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.btns .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);*/
+    text-align: center; 
+}
+p{
+    padding: 15px;
+    margin: 12px;
+    box-shadow: 2px 0 5px #000;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+}
+span{
+    font-size: 9px;
+}
+.top{
+    position: relative;
+    bottom: 3px;
+}
+.op{
+    background-color: #ddd;
+}
+.equal{
+    color: #fff;
+    background-color: #000;
+}
+.delete, .clear{
+    color: #fff;
+    background-color: brown;
+}
+
